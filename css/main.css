@@ -19,6 +19,7 @@ html {
 
 body {
   margin: 0;
+  background-color: #ffe1e1;
 }
 
 .body {
@@ -27,9 +28,10 @@ body {
 
 .title {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   margin: 0;
   align-items: center;
+  background-color: #ffa1a1;
 }
 
 img {
@@ -59,17 +61,18 @@ header h2 {
 
 header nav {
   display: block;
+  font-family: Merienda, cursive;
 }
 
 ul {
   padding: 0;
   list-style-type: none;
   display: block;
-  text-align: center;
 }
 
 header li {
   margin-bottom: 1rem;
+  text-align: center;
 }
 
 a {
@@ -97,6 +100,7 @@ header nav a {
   color: white;
   border-radius: 10px;
   padding: .5rem .5rem 1.5rem;
+  max-width: 18rem;
 }
 
 .banner-content p {
@@ -107,6 +111,7 @@ header nav a {
   color: white;
   padding: .5rem 1rem;
   border-radius: 5px;
+  font-family: Merienda, cursive;
 }
 
 .banner-content a:hover {
@@ -117,6 +122,11 @@ header nav a {
 
 .a-body-element {
   display: block;
+  padding: 1.5rem;
+  border: 2px solid #723333;
+  margin: 1rem .5rem;
+  border-radius: 10px;
+  background-color: white;
 }
 
 .yum-yum-img img {
@@ -133,26 +143,64 @@ header nav a {
 
 .yum-yum-content h3 {
   text-align: center;
+  margin-bottom: 0;
+  font-family: Merienda, cursive;
+  font-weight: bold;
+}
+
+.yum-yum-content a {
+  color: #723333;
+  padding: .5rem 1rem;
+  border-radius: 5px;
+  background-color: white;
+}
+
+.yum-yum-content a:hover {
+  color: white;
+  background-color: #723333;
+}
+
+.yum-yum-content p {
+  margin: 1rem 0 0;
 }
 
 .pipol-img img {
   display: block;
   width: 40%;
-  margin: 0 auto;
+  margin: 0 auto 1rem;
+  max-width: 15rem;
 }
 
-.story h3, .pipol-story h4 {
+.pipol-story h4 {
   display: block;
   text-align: center;
+  margin: .75rem 0;
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.story h3 {
+  display: block;
+  text-align: center;
+  font-family: Merienda, cursive;
+  font-weight: bold;
+  color: #723333;
+  font-size: 2rem;
+  margin-bottom: .75rem;
+}
+
+.story {
+  margin: 0 .5rem;
 }
 
 blockquote {
   font-style: italic;
+  font-size: .85rem;
 }
 
 footer {
   display: block;
-  background-color: red;
+  background-color: #723333;
 }
 
 footer p {
@@ -165,4 +213,61 @@ footer p {
 ul a:hover {
   background-color: #ea7d7d;
   color: white;
+}
+
+@media only screen and (min-width: 25em) {
+
+  ul {
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    flex
+  }
+
+  ul li {
+    margin-bottom: 1rem;
+    width: 50%;
+    text-align: center;
+    display: block;
+  }
+
+  main {
+    margin-top: 0;
+  }
+
+  .a-body-element {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .yum-yum-img img {
+    margin: 0;
+    width: 100%
+  }
+
+  .yum-yum-img {
+    width: 30%;
+  }
+
+  .yum-yum-content {
+    display: block;
+    width: 60%;
+  }
+
+  .yum-yum-content h3 {
+    text-align: left;
+    padding-left: .5rem;
+  }
+
+}
+
+@media only screen and (min-width: 38em) {
+
+  html {
+    font-size: 110%;
+    line-height: 1.4;
+  }
+
 }
