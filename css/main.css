@@ -232,6 +232,7 @@ ul a:hover {
 
   .title h2 {
     font-size: 2rem;
+    margin: 1.5rem 0;
   }
 
   ul {
@@ -287,6 +288,7 @@ ul a:hover {
   }
 
   .title h2 {
+    margin: 1rem 0;
     font-size: 2.5rem;
   }
 
@@ -444,6 +446,7 @@ ul a:hover {
     display: flex;
     flex-wrap: nowrap;
     justify-content: space-between;
+    background-color: #ea7d7d;
   }
 
   .title img:last-child {
@@ -460,7 +463,16 @@ ul a:hover {
   }
 
   .title {
+    background-color: #ea7d7d;
+  }
+
+  li a {
+    color: white;
+  }
+
+  li a:hover {
     background-color: #ffe1e1;
+    color: #723333;
   }
 
   nav {
@@ -468,9 +480,10 @@ ul a:hover {
     align-items: center;
   }
 
-  li {
+  ul li {
     top: 50%;
     transform: translate(0, 30%);
+    margin-bottom: -4rem;
   }
 
   header h2 {
