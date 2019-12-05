@@ -313,6 +313,10 @@ ul a:hover {
     line-height: 1.5;
   }
 
+  .title img {
+    width: 60px;
+  }
+
   .banner-goes-here {
     display: flex;
   }
