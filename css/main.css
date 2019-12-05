@@ -135,6 +135,7 @@ header nav a {
 
 .img-flex {
   display: block;
+  width: 100%;
 }
 
 .img-flex img {
