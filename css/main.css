@@ -133,6 +133,10 @@ header nav a {
   background-color: white;
 }
 
+.img-flex {
+  display: block;
+}
+
 .img-flex img {
   display: block;
   width: 30%;
