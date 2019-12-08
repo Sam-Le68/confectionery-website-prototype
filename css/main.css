@@ -207,7 +207,6 @@ header nav a {
 }
 
 blockquote {
-  font-style: italic;
   font-size: .85rem;
 }
 
@@ -244,6 +243,7 @@ ul a:hover {
     list-style-type: none;
     display: flex;
     flex-wrap: wrap;
+    margin-bottom: .5rem;
   }
 
   ul li {
@@ -304,7 +304,7 @@ ul a:hover {
   }
 
   ul li {
-    margin-bottom: 1rem;
+    margin-bottom: .5rem;
     width: 25%;
     text-align: center;
     display: block;
@@ -448,7 +448,7 @@ ul a:hover {
     flex-wrap: nowrap;
     align-items: center;
     justify-content: space-between;
-    background-color: #ea7d7d;
+    background-color: #ffa1a1;
   }
 
   .title img:last-child {
@@ -465,7 +465,7 @@ ul a:hover {
   }
 
   .title {
-    background-color: #ea7d7d;
+    background-color: #ffa1a1;
   }
 
   li a {
@@ -479,13 +479,11 @@ ul a:hover {
 
   nav {
     width: 50%;
-    align-items: center;
   }
 
   ul li {
     top: 50%;
-    transform: translate(0, 30%);
-    margin-bottom: -4rem;
+    transform: translate(0, 50%);
   }
 
   header h1 {
