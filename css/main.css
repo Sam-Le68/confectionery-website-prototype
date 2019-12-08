@@ -446,6 +446,7 @@ ul a:hover {
   header {
     display: flex;
     flex-wrap: nowrap;
+    align-items: center;
     justify-content: space-between;
     background-color: #ea7d7d;
   }
